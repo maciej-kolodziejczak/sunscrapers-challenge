@@ -6,9 +6,9 @@ import { routes } from "../routes";
 
 export const Content = () => (
   <Switch>
-    {routes.map(({ path, component }) => (
+    {routes.map(({ path, component: Component }) => (
       <Route path={path} key={path}>
-        {component}
+        <Component />
       </Route>
     ))}
     <Redirect to="/track" />
