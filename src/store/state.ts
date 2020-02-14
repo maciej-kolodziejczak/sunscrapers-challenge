@@ -1,5 +1,5 @@
 import { Company } from "../types";
 
-export type CompaniesState = Set<Company>;
+export type CompaniesState = Company[];
 
-export const initialState: CompaniesState = new Set();
+export const initialState: CompaniesState = [];

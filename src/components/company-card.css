@@ -1,0 +1,25 @@
+.company-card {
+  margin: 12px 0;
+}
+
+.company-card-content {
+  display: flex;
+}
+
+.company-card-paragraph {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.company-card-paragraph:not(:first-child) {
+  margin-left: 8px;
+}
+
+.company-card-image-wrapper {
+  padding-right: 12px;
+}
+
+.company-card-image {
+  width: 64px;
+  height: 64px;
+}
